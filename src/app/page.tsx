@@ -9,10 +9,10 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/stegault/image/upload/v1/assets/85004"
+            src="https://res.cloudinary.com/stegault/image/upload/85004"
             alt="Hero Background"
             fill
-            className="object-cover opacity-30"
+            className="object-cover opacity-20"
             priority
           />
           <div className="absolute inset-0 hero-gradient"></div>
