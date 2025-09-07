@@ -12,7 +12,7 @@ export default function Home() {
             src="https://res.cloudinary.com/stegault/image/upload/85004"
             alt="Hero Background"
             fill
-            className="object-cover opacity-20"
+            className="object-cover"
             priority
           />
           <div className="absolute inset-0 hero-gradient"></div>
