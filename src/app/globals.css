@@ -5,12 +5,24 @@
   --foreground: #7c2d12;
   --font-geist-sans: ui-sans-serif, system-ui, sans-serif;
   --font-geist-mono: ui-monospace, monospace;
+  
+  /* Accessible color palette with proper contrast ratios */
+  --text-primary: #451a03; /* Very dark brown for primary text - WCAG AAA */
+  --text-secondary: #7c2d12; /* Dark brown for secondary text - WCAG AA */
+  --text-accent: #ea580c; /* Orange for accents - WCAG AA on light backgrounds */
+  --text-light: #fef7ed; /* Very light warm for dark backgrounds - WCAG AAA */
+  --text-muted: #92400e; /* Muted brown for less important text - WCAG AA */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1c1917;
     --foreground: #fef3e2;
+    --text-primary: #fef7ed; /* Light on dark background */
+    --text-secondary: #fed7aa; /* Warm light for secondary */
+    --text-accent: #fb923c; /* Bright orange for accents */
+    --text-light: #451a03; /* Dark for light elements on dark bg */
+    --text-muted: #d97706; /* Muted amber for less important text */
   }
 }
 
@@ -20,30 +32,59 @@ body {
   font-family: var(--font-geist-sans);
 }
 
-/* Glassmorphism utility classes */
+/* Enhanced glassmorphism with better text contrast */
 .glass {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.85); /* More opaque for better text contrast */
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 16px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.75); /* More opaque for accessibility */
   backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 20px;
-  box-shadow: 0 8px 32px 0 rgba(251, 191, 36, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(251, 191, 36, 0.15);
+}
+
+/* Dark theme glass cards for better contrast */
+@media (prefers-color-scheme: dark) {
+  .glass-card {
+    background: rgba(41, 37, 36, 0.85); /* Dark glass with good opacity */
+    border: 1px solid rgba(120, 113, 108, 0.3);
+  }
 }
 
 .hero-gradient {
   background: linear-gradient(135deg, 
-    rgba(251, 191, 36, 0.3) 0%, 
-    rgba(245, 158, 11, 0.3) 25%, 
-    rgba(249, 115, 22, 0.3) 50%, 
-    rgba(239, 68, 68, 0.3) 75%, 
-    rgba(220, 38, 127, 0.3) 100%);
+    rgba(251, 191, 36, 0.2) 0%, 
+    rgba(245, 158, 11, 0.2) 25%, 
+    rgba(249, 115, 22, 0.2) 50%, 
+    rgba(239, 68, 68, 0.2) 75%, 
+    rgba(220, 38, 127, 0.2) 100%);
+}
+
+/* Accessible text utilities */
+.text-accessible-primary {
+  color: var(--text-primary);
+}
+
+.text-accessible-secondary {
+  color: var(--text-secondary);
+}
+
+.text-accessible-accent {
+  color: var(--text-accent);
+}
+
+.text-accessible-light {
+  color: var(--text-light);
+}
+
+.text-accessible-muted {
+  color: var(--text-muted);
 }
 
 /* Smooth scrolling */
