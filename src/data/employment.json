@@ -1,0 +1,208 @@
+{
+  "Employment": [
+    {
+      "id": 1,
+      "employerName": "Appreciate Group",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/v1603375242/company-logo/park-group-plc-logo.png",
+      "companyURL": "https://www.appreciategroup.co.uk/",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1601114883/company-site/Appreciate_Group_Plc.png",
+      "roles": [
+        {
+          "id": "r1",
+          "title": "Front End Developer UI/UX",
+          "description": "Working within a java built project focusing on mainly the getpark.co.uk and Irish equivalent sites and apps. Refactor and rebuild HTML5, CSS & JavaScript. Amend apps to match specification as designed. Advise on correct usage of functionality and accessibility. Build of test sites using Google optimize. Provide detailed knowledge of UI/UX from customers point of view. Begun rebuilding of project in React and Adobe XD to provide a more modern approach",
+          "startDate": "2020-07-06",
+          "endDate": null,
+          "location": "Remote Working"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "employerName": "Smile Lab Solutions",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1590676150/company-logo/instasmile-logo.svg",
+      "companyURL": "https://uk.instasmile.com/",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1590676107/company-site/instasmile.png",
+      "roles": [
+        {
+          "id": "r2",
+          "title": "Senior Developer",
+          "description": "Working primarily with React and bootstrap for frontend. GIT, Jira, GitLab, Teamcity, Favro.",
+          "startDate": "2020-04-22",
+          "endDate": "2020-05-28",
+          "location": "Remote Working"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "employerName": "Trelleborg",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco,e_make_transparent:25/v1573213701/company-logo/trelleborg-logo.png",
+      "companyURL": "https://www.trelleborg.com/en/marine-and-infrastructure",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573213740/company-site/trelleborg-site.png",
+      "roles": [
+        {
+          "id": "r3",
+          "title": "Software Engineer - Front End Development",
+          "description": "Creation of new content and functionality within the SPM2 and Fleet software. Using React, HTMl, CSS, JavaScript(ES6), Angular. Freedom to learn new technology via PluralSight and other external sources. Offering professional insight to UI and UX for assessment and redesign of some components",
+          "startDate": "2019-07-08",
+          "endDate": null,
+          "location": "Broughton, Flintshire UK"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "employerName": "D2i Systems Ltd",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco,e_make_transparent:25/v1573213188/company-logo/d2i-alt-logopng.jpg",
+      "companyURL": "https://www.d2isystems.com",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1560094277/company-site/d2i-site_dp4vmg.png",
+      "roles": [
+        {
+          "id": "r4",
+          "title": "Software Developer",
+          "description": "Refactor of CSS for clients in middle east to incorporate mobile responsiveness using standard CSS. Creation of brand guidelines via adobe PhotoShop and adobe Illustrator. Using Umbraco to modify and create new pages for D2i Systems website. Design of unique videos utilizing adobe Premiere and media. Modification of software in Visual studio for custom .Net client work (vb.net). Amending stored procedures and editing of database through sql. Complete re-brand and design of company logo and colours. Creation of graphics for advertisements and banners. Creation of online marketing collateral. High quality mobile responsive email template design. Preparation of onsite kit. Installation and test of onsite equipment for events. Onsite tech support for events software. Creation of registration portals using the proprietary software.",
+          "startDate": "2017-11-06",
+          "endDate": "2019-06-27",
+          "location": "Birkenhead, UK"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "employerName": "Destination2.co.uk",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573551136/company-logo/D2-Logo.svg",
+      "companyURL": "https://www.destination2.co.uk",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1560094278/company-site/d2-site_dyzutn.png",
+      "roles": [
+        {
+          "id": "r5",
+          "title": "Junior Full Stack Developer",
+          "description": "Build of Front End as and when designs are created, undertaking the redesign of the navigation for HolidayGems site. Ensuring usability across mobile, tablet, small desktop and large desktop systems. Rebuilding the Front End for Destination2.co.uk, also code reviewing CSS to ensure no crossover and conflicts. Reducing the load of CSS by creating code standards using BEM approach. Also taking a more dynamic approach to ensuring usability on mobile, tablet, small desktop and large desktop systems. Build of static pages throughout both sites, using html, CSS, jQuery, JavaScript and custom Google maps. Large freedom to create custom designs for static pages and ensure functionality across mobile, tablet, small desktop and large desktop systems. Adding api's as and when a requirement is needed, added Owl carousel to new design of Destination2. Creating small sql scripts to retrieve data for specific destinations on static pages. Using sifter to report all bugs and update bugs as and when completed and to manage work load. Using Paint.net to create imagery as and where it is required on a day to day basis. Using mvc to create new page and views within the site. Using CodePen to test out design ideas and pre build some sections to enable fast prototyping. Resolving cross browser issues within CSS.",
+          "startDate": "2017-01-09",
+          "endDate": "2017-11-03",
+          "location": "Ellesmere Port, UK"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "employerName": "Holidaygems.co.uk",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco,e_replace_color:FFDB00:50:ffffff/v1573549665/company-logo/HolidayGems.svg",
+      "companyURL": "https://www.holidaygems.co.uk",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1560094277/company-site/gems-site_oelbgr.png",
+      "roles": [
+        {
+          "id": "r6",
+          "title": "Junior Full Stack Developer",
+          "description": "Working within travel industry to create appealing holiday packages.",
+          "startDate": "2016-06-01",
+          "endDate": "2017-01-08",
+          "location": "Ellesmere Port, UK"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "employerName": "Sofology",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco,e_make_transparent:25/v1573212312/company-logo/sofology-logo.png",
+      "companyURL": "https://www.sofology.com",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573212293/company-site/sofology-site.png",
+      "roles": [
+        {
+          "id": "r7",
+          "title": "IT Support Technician",
+          "description": "Providing technical support across retail stores and head office operations.",
+          "startDate": "2015-03-01",
+          "endDate": "2016-05-30",
+          "location": "Liverpool, UK"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "employerName": "Fleetsolve Ltd",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573208278/company-logo/fleetsolve-logo.png",
+      "companyURL": "https://www.fleetsolve.com/",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573208357/company-site/fleetsolve-site.png",
+      "roles": [
+        {
+          "id": "r8",
+          "title": "Software Support Technician",
+          "description": "Supporting fleet management software solutions and client implementations.",
+          "startDate": "2014-01-15",
+          "endDate": "2015-02-28",
+          "location": "Liverpool, UK"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "employerName": "Nviron",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573204830/company-logo/nviron-logo.png",
+      "companyURL": "https://www.nviron.co.uk/",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573204863/company-site/nviron-site.png",
+      "roles": [
+        {
+          "id": "r9",
+          "title": "Technical Support Engineer",
+          "description": "Providing environmental monitoring software support and maintenance.",
+          "startDate": "2013-06-01",
+          "endDate": "2014-01-14",
+          "location": "Liverpool, UK"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "employerName": "Broadstone Financial Solutions",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573132957/company-logo/broadstone-logo.png",
+      "companyURL": "https://www.broadstone.co.uk/csfs/",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573136052/company-site/broadtstone-site.png",
+      "roles": [
+        {
+          "id": "r10",
+          "title": "IT Support Analyst",
+          "description": "Supporting financial services IT infrastructure and user support.",
+          "startDate": "2012-09-01",
+          "endDate": "2013-05-31",
+          "location": "Liverpool, UK"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "employerName": "Sony Computer Entertainment",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573554940/company-logo/ps_2.png",
+      "companyURL": "https://www.playstationjobs.co.uk/working-at-SCEE.html",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573131793/company-site/ps-eu-site.png",
+      "roles": [
+        {
+          "id": "r11",
+          "title": "Game Tester",
+          "description": "Quality assurance testing for PlayStation games and systems.",
+          "startDate": "2011-11-01",
+          "endDate": "2012-08-31",
+          "location": "Liverpool, UK"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "employerName": "Sony Computer Entertainment",
+      "companyLogo": "https://res.cloudinary.com/stegault/image/upload/c_scale,h_70,w_auto,f_auto,q_auto:eco/v1573554940/company-logo/ps_2.png",
+      "companyURL": "https://www.playstationjobs.co.uk/working-at-SCEE.html",
+      "snapShot": "https://res.cloudinary.com/stegault/image/upload/f_auto,q_auto:eco/v1573131793/company-site/ps-eu-site.png",
+      "roles": [
+        {
+          "id": "r12",
+          "title": "Compliance Tester",
+          "description": "Ensuring PlayStation games meet Sony's compliance standards.",
+          "startDate": "2010-09-01",
+          "endDate": "2011-10-31",
+          "location": "Liverpool, UK"
+        }
+      ]
+    }
+  ]
+}
