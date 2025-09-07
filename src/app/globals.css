@@ -87,6 +87,18 @@ body {
   color: var(--text-muted);
 }
 
+/* Additional utility classes for better accessibility */
+.bg-accessible-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(15px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .bg-accessible-card {
+    background: rgba(41, 37, 36, 0.85);
+  }
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;

@@ -28,8 +28,8 @@ export default function Skills() {
   const SkillCard = ({ skill }: { skill: typeof frontendSkills[0] }) => (
     <div className="glass-card p-6 hover:scale-105 transition-transform duration-300">
       <div className="flex justify-between items-center mb-3">
-        <h3 className="text-xl font-semibold text-amber-100">{skill.name}</h3>
-        <span className="text-amber-300 font-bold">{skill.level}%</span>
+        <h3 className="text-xl font-semibold text-accessible-light">{skill.name}</h3>
+        <span className="text-accessible-accent font-bold">{skill.level}%</span>
       </div>
       <div className="w-full bg-warm-800/30 rounded-full h-3 mb-3">
         <div 
@@ -37,7 +37,7 @@ export default function Skills() {
           style={{ width: `${skill.level}%` }}
         ></div>
       </div>
-      <p className="text-warm-300 text-sm">{skill.description}</p>
+      <p className="text-accessible-secondary text-sm">{skill.description}</p>
     </div>
   );
 
@@ -46,10 +46,10 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-amber-100 mb-4">
+          <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Technical Skills
           </h1>
-          <p className="text-xl text-warm-300 max-w-3xl mx-auto">
+          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
             A comprehensive overview of my technical expertise across frontend, backend, 
             and design tools developed through years of professional experience.
           </p>
@@ -57,7 +57,7 @@ export default function Skills() {
 
         {/* Frontend Skills */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Frontend Development
           </h2>
@@ -70,7 +70,7 @@ export default function Skills() {
 
         {/* Backend Skills */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Backend Development
           </h2>
@@ -83,7 +83,7 @@ export default function Skills() {
 
         {/* Tools & Software */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Tools & Software
           </h2>
@@ -96,7 +96,7 @@ export default function Skills() {
 
         {/* Certifications */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Certifications
           </h2>
@@ -106,11 +106,11 @@ export default function Skills() {
                 <span className="text-2xl font-bold text-white">MS</span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-amber-100">
+                <h3 className="text-xl font-semibold text-accessible-light">
                   Microsoft Technology Associate
                 </h3>
-                <p className="text-warm-300">Software Development Fundamentals</p>
-                <p className="text-warm-400 text-sm">Firebrand Training - 2018</p>
+                <p className="text-accessible-secondary">Software Development Fundamentals</p>
+                <p className="text-accessible-muted text-sm">Firebrand Training - 2018</p>
               </div>
             </div>
           </div>

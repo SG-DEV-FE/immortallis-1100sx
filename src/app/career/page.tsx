@@ -18,18 +18,18 @@ export default function Career() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-amber-100 mb-4">
+          <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Career Journey
           </h1>
-          <p className="text-xl text-warm-300 max-w-3xl mx-auto">
+          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
             From PlayStation game testing to senior frontend development - 
-            a progression through technology that spans over a decade of learning and growth.
+            a progression through technology spans over a decade of learning and growth.
           </p>
         </div>
 
         {/* Professional Experience */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Professional Experience
           </h2>
@@ -45,12 +45,12 @@ export default function Career() {
                       className="w-16 h-16 object-contain rounded-lg bg-white/10 p-2"
                     />
                     <div>
-                      <h3 className="text-xl font-bold text-amber-100">{job.employerName}</h3>
+                      <h3 className="text-xl font-bold text-accessible-light">{job.employerName}</h3>
                       <a 
                         href={job.companyURL}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-amber-400 hover:text-amber-300 text-sm transition-colors"
+                        className="text-accessible-accent hover:text-accessible-accent text-sm transition-colors"
                       >
                         Visit Company →
                       </a>
@@ -62,13 +62,13 @@ export default function Career() {
                     {job.roles.map((role) => (
                       <div key={role.id}>
                         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-3">
-                          <h4 className="text-lg font-semibold text-amber-200">{role.title}</h4>
-                          <span className="text-warm-400 text-sm">
+                          <h4 className="text-lg font-semibold text-accessible-light">{role.title}</h4>
+                          <span className="text-accessible-muted text-sm">
                             {formatDate(role.startDate)} - {formatDate(role.endDate)}
                           </span>
                         </div>
-                        <p className="text-warm-300 mb-4 leading-relaxed">{role.description}</p>
-                        <div className="flex items-center text-sm text-warm-400">
+                        <p className="text-accessible-secondary mb-4 leading-relaxed">{role.description}</p>
+                        <div className="flex items-center text-sm text-accessible-muted">
                           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -86,7 +86,7 @@ export default function Career() {
 
         {/* Education */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Education & Qualifications
           </h2>
@@ -102,10 +102,10 @@ export default function Career() {
                     />
                   )}
                   <div className="flex-1">
-                    <h3 className="text-lg font-bold text-amber-100 mb-2">{edu.institutionName}</h3>
-                    <h4 className="text-amber-200 font-medium mb-1">{edu.courseStudied}</h4>
-                    <p className="text-warm-300 text-sm mb-2">{edu.gradeAchieved}</p>
-                    <span className="text-warm-400 text-sm">{edu.yearCompleted}</span>
+                    <h3 className="text-lg font-bold text-accessible-light mb-2">{edu.institutionName}</h3>
+                    <h4 className="text-accessible-light font-medium mb-1">{edu.courseStudied}</h4>
+                    <p className="text-accessible-secondary text-sm mb-2">{edu.gradeAchieved}</p>
+                    <span className="text-accessible-muted text-sm">{edu.yearCompleted}</span>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ export default function Career() {
 
         {/* Testimonials */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             What Colleagues Say
           </h2>
@@ -130,19 +130,19 @@ export default function Career() {
                       className="w-16 h-16 rounded-full object-cover"
                     />
                     <div>
-                      <h3 className="text-lg font-bold text-amber-100">{testimonial.imageAlt}</h3>
+                      <h3 className="text-lg font-bold text-accessible-light">{testimonial.imageAlt}</h3>
                       <a 
                         href={testimonial.companyURL}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-amber-400 hover:text-amber-300 text-sm transition-colors"
+                        className="text-accessible-accent hover:text-accessible-accent text-sm transition-colors"
                       >
                         {testimonial.companyName}
                       </a>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <blockquote className="text-warm-300 italic leading-relaxed">
+                    <blockquote className="text-accessible-secondary italic leading-relaxed">
                       &quot;{testimonial.testimonialContent}&quot;
                     </blockquote>
                     <div className="mt-4">
@@ -150,7 +150,7 @@ export default function Career() {
                         href={testimonial.testimonialSource}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-amber-400 hover:text-amber-300 text-sm transition-colors"
+                        className="text-accessible-accent hover:text-accessible-accent text-sm transition-colors"
                       >
                         View on LinkedIn →
                       </a>
@@ -164,7 +164,7 @@ export default function Career() {
 
         {/* Career Highlights */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-amber-200 mb-8 flex items-center">
+          <h2 className="text-3xl font-bold text-accessible-light mb-8 flex items-center">
             <div className="w-2 h-8 bg-gradient-to-b from-amber-400 to-orange-500 mr-4 rounded"></div>
             Career Highlights
           </h2>
@@ -173,8 +173,8 @@ export default function Career() {
               <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">10+</span>
               </div>
-              <h3 className="text-xl font-bold text-amber-100 mb-2">Years Experience</h3>
-              <p className="text-warm-300 text-sm">
+              <h3 className="text-xl font-bold text-accessible-light mb-2">Years Experience</h3>
+              <p className="text-accessible-secondary text-sm">
                 Over a decade of professional software development experience
               </p>
             </div>
@@ -182,8 +182,8 @@ export default function Career() {
               <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">50+</span>
               </div>
-              <h3 className="text-xl font-bold text-amber-100 mb-2">Projects Delivered</h3>
-              <p className="text-warm-300 text-sm">
+              <h3 className="text-xl font-bold text-accessible-light mb-2">Projects Delivered</h3>
+              <p className="text-accessible-secondary text-sm">
                 Successfully completed projects across multiple industries
               </p>
             </div>
@@ -191,8 +191,8 @@ export default function Career() {
               <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-white">15+</span>
               </div>
-              <h3 className="text-xl font-bold text-amber-100 mb-2">Technologies Mastered</h3>
-              <p className="text-warm-300 text-sm">
+              <h3 className="text-xl font-bold text-accessible-light mb-2">Technologies Mastered</h3>
+              <p className="text-accessible-secondary text-sm">
                 Expertise across frontend, backend, and design technologies
               </p>
             </div>

@@ -63,10 +63,10 @@ export default function Gallery() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-amber-100 mb-4">
+          <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Project Gallery
           </h1>
-          <p className="text-xl text-warm-300 max-w-3xl mx-auto">
+          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
             A showcase of professional projects spanning various industries, 
             from enterprise software to consumer-facing web applications.
           </p>
@@ -78,7 +78,7 @@ export default function Gallery() {
             <button
               key={category}
               className="px-6 py-3 bg-warm-800/30 backdrop-blur-sm border border-amber-500/30 
-                       rounded-full text-amber-200 hover:bg-amber-500/20 hover:border-amber-400
+                       rounded-full text-accessible-light hover:bg-amber-500/20 hover:border-amber-400
                        transition-all duration-300 hover:scale-105"
             >
               {category}
@@ -106,10 +106,10 @@ export default function Gallery() {
 
               {/* Project Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-amber-100 mb-3">
+                <h3 className="text-xl font-bold text-accessible-light mb-3">
                   {project.title}
                 </h3>
-                <p className="text-warm-300 text-sm mb-4 line-clamp-3">
+                <p className="text-accessible-secondary text-sm mb-4 line-clamp-3">
                   {project.description}
                 </p>
 
@@ -118,13 +118,13 @@ export default function Gallery() {
                   {project.technologies.slice(0, 3).map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-2 py-1 bg-warm-700/50 text-amber-300 text-xs rounded-full"
+                      className="px-2 py-1 bg-warm-700/50 text-accessible-accent text-xs rounded-full"
                     >
                       {tech}
                     </span>
                   ))}
                   {project.technologies.length > 3 && (
-                    <span className="px-2 py-1 bg-warm-700/50 text-amber-300 text-xs rounded-full">
+                    <span className="px-2 py-1 bg-warm-700/50 text-accessible-accent text-xs rounded-full">
                       +{project.technologies.length - 3} more
                     </span>
                   )}
@@ -152,10 +152,10 @@ export default function Gallery() {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <div className="glass-card p-8 max-w-2xl mx-auto">
-            <h2 className="text-2xl font-bold text-amber-100 mb-4">
+            <h2 className="text-2xl font-bold text-accessible-light mb-4">
               Interested in collaborating?
             </h2>
-            <p className="text-warm-300 mb-6">
+            <p className="text-accessible-secondary mb-6">
               I am always open to discussing new opportunities and exciting projects.
             </p>
             <a

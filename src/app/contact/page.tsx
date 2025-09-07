@@ -72,10 +72,10 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-amber-100 mb-4">
+          <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Get In Touch
           </h1>
-          <p className="text-xl text-warm-300 max-w-3xl mx-auto">
+          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
             I am always interested in new opportunities, collaborations, and interesting projects. 
             Let&apos;s discuss how we can work together to bring your ideas to life.
           </p>
@@ -84,10 +84,10 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="glass-card p-8">
-            <h2 className="text-2xl font-bold text-amber-100 mb-6">Send a Message</h2>
+            <h2 className="text-2xl font-bold text-accessible-light mb-6">Send a Message</h2>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-amber-200 font-medium mb-2">
+                <label htmlFor="name" className="block text-accessible-light font-medium mb-2">
                   Name *
                 </label>
                 <input
@@ -98,14 +98,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-warm-800/50 border border-warm-600/50 rounded-lg 
-                           text-amber-100 placeholder-warm-400 focus:outline-none focus:border-amber-500 
+                           text-accessible-light placeholder-warm-400 focus:outline-none focus:border-amber-500 
                            focus:ring-2 focus:ring-amber-500/20 transition-colors"
                   placeholder="Your full name"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-amber-200 font-medium mb-2">
+                <label htmlFor="email" className="block text-accessible-light font-medium mb-2">
                   Email *
                 </label>
                 <input
@@ -116,14 +116,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-warm-800/50 border border-warm-600/50 rounded-lg 
-                           text-amber-100 placeholder-warm-400 focus:outline-none focus:border-amber-500 
+                           text-accessible-light placeholder-warm-400 focus:outline-none focus:border-amber-500 
                            focus:ring-2 focus:ring-amber-500/20 transition-colors"
                   placeholder="your.email@example.com"
                 />
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-amber-200 font-medium mb-2">
+                <label htmlFor="subject" className="block text-accessible-light font-medium mb-2">
                   Subject *
                 </label>
                 <input
@@ -134,14 +134,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-warm-800/50 border border-warm-600/50 rounded-lg 
-                           text-amber-100 placeholder-warm-400 focus:outline-none focus:border-amber-500 
+                           text-accessible-light placeholder-warm-400 focus:outline-none focus:border-amber-500 
                            focus:ring-2 focus:ring-amber-500/20 transition-colors"
                   placeholder="What would you like to discuss?"
                 />
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-amber-200 font-medium mb-2">
+                <label htmlFor="message" className="block text-accessible-light font-medium mb-2">
                   Message *
                 </label>
                 <textarea
@@ -152,7 +152,7 @@ export default function Contact() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-warm-800/50 border border-warm-600/50 rounded-lg 
-                           text-amber-100 placeholder-warm-400 focus:outline-none focus:border-amber-500 
+                           text-accessible-light placeholder-warm-400 focus:outline-none focus:border-amber-500 
                            focus:ring-2 focus:ring-amber-500/20 transition-colors resize-vertical"
                   placeholder="Tell me about your project or opportunity..."
                 />
@@ -172,7 +172,7 @@ export default function Contact() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="glass-card p-8">
-              <h2 className="text-2xl font-bold text-amber-100 mb-6">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-accessible-light mb-6">Contact Information</h2>
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-center space-x-4">
@@ -180,18 +180,18 @@ export default function Contact() {
                       {info.icon}
                     </div>
                     <div>
-                      <h3 className="text-amber-200 font-medium">{info.title}</h3>
+                      <h3 className="text-accessible-light font-medium">{info.title}</h3>
                       {info.link ? (
                         <a 
                           href={info.link}
                           target={info.link.startsWith('http') ? '_blank' : undefined}
                           rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                          className="text-warm-300 hover:text-amber-300 transition-colors"
+                          className="text-accessible-secondary hover:text-accessible-accent transition-colors"
                         >
                           {info.value}
                         </a>
                       ) : (
-                        <p className="text-warm-300">{info.value}</p>
+                        <p className="text-accessible-secondary">{info.value}</p>
                       )}
                     </div>
                   </div>
@@ -201,19 +201,19 @@ export default function Contact() {
 
             {/* Availability */}
             <div className="glass-card p-8">
-              <h3 className="text-xl font-bold text-amber-100 mb-4">Current Availability</h3>
+              <h3 className="text-xl font-bold text-accessible-light mb-4">Current Availability</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="text-warm-300">Available for new projects</span>
+                  <span className="text-accessible-secondary">Available for new projects</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-amber-500 rounded-full"></div>
-                  <span className="text-warm-300">Open to freelance opportunities</span>
+                  <span className="text-accessible-secondary">Open to freelance opportunities</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                  <span className="text-warm-300">Interested in permanent roles</span>
+                  <span className="text-accessible-secondary">Interested in permanent roles</span>
                 </div>
               </div>
             </div>
@@ -221,12 +221,12 @@ export default function Contact() {
             {/* Response Time */}
             <div className="glass-card p-6 bg-gradient-to-r from-amber-500/10 to-orange-500/10 border-amber-500/20">
               <div className="flex items-center space-x-3 mb-3">
-                <svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-accessible-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <h3 className="text-amber-100 font-semibold">Quick Response</h3>
+                <h3 className="text-accessible-light font-semibold">Quick Response</h3>
               </div>
-              <p className="text-warm-300 text-sm">
+              <p className="text-accessible-secondary text-sm">
                 I typically respond to messages within 24 hours during business days.
               </p>
             </div>
