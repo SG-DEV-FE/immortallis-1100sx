@@ -146,3 +146,17 @@ html {
 .delay-200 {
   animation-delay: 0.2s;
 }
+
+/* Rotating shadow animation */
+@keyframes rotate-shadow {
+  0% {
+    box-shadow: 8px 8px 16px rgba(67, 56, 202, 0.4);
+  }
+  100% {
+    box-shadow: 8px 8px 16px rgba(67, 56, 202, 0.4);
+  }
+}
+
+.animate-shadow-rotate {
+  animation: rotate-shadow 4s infinite linear;
+}
