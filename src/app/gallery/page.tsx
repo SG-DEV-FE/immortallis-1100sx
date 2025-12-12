@@ -66,7 +66,7 @@ export default function Gallery() {
           <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Project Gallery
           </h1>
-          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-amber-900 max-w-3xl mx-auto">
             A showcase of professional projects spanning various industries, 
             from enterprise software to consumer-facing web applications.
           </p>
@@ -109,7 +109,7 @@ export default function Gallery() {
                 <h3 className="text-xl font-bold text-accessible-light mb-3">
                   {project.title}
                 </h3>
-                <p className="text-accessible-secondary text-sm mb-4 line-clamp-3">
+                <p className="text-amber-900 text-sm mb-4 line-clamp-3">
                   {project.description}
                 </p>
 
@@ -155,7 +155,7 @@ export default function Gallery() {
             <h2 className="text-2xl font-bold text-accessible-light mb-4">
               Interested in collaborating?
             </h2>
-            <p className="text-accessible-secondary mb-6">
+            <p className="text-amber-900 mb-6">
               I am always open to discussing new opportunities and exciting projects.
             </p>
             <a

@@ -1,11 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fffbf5;
   --foreground: #7c2d12;
   --font-geist-sans: ui-sans-serif, system-ui, sans-serif;
   --font-geist-mono: ui-monospace, monospace;
-  
+
   /* Accessible color palette with proper contrast ratios */
   --text-primary: #451a03; /* Very dark brown for primary text - WCAG AAA */
   --text-secondary: #7c2d12; /* Dark brown for secondary text - WCAG AA */
@@ -27,14 +26,18 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans);
 }
 
 /* Enhanced glassmorphism with better text contrast */
 .glass {
-  background: rgba(255, 255, 255, 0.85); /* More opaque for better text contrast */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* More opaque for better text contrast */
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 16px;
@@ -42,28 +45,27 @@ body {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.75); /* More opaque for accessibility */
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 20px;
-  box-shadow: 0 8px 32px 0 rgba(251, 191, 36, 0.15);
-}
-
-/* Dark theme glass cards for better contrast */
-@media (prefers-color-scheme: dark) {
-  .glass-card {
-    background: rgba(41, 37, 36, 0.85); /* Dark glass with good opacity */
-    border: 1px solid rgba(120, 113, 108, 0.3);
-  }
+  background-color: rgba(
+    96,
+    165,
+    250,
+    0.2
+  ); /* Tailwind bg-blue-400 with opacity */
+  border-radius: 0.375rem; /* Tailwind rounded-md */
+  background-clip: padding-box;
+  backdrop-filter: blur(12px);
+  border: 1px solid #f3f4f6; /* Tailwind border-gray-100 */
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, 
-    rgba(251, 191, 36, 0.2) 0%, 
-    rgba(245, 158, 11, 0.2) 25%, 
-    rgba(249, 115, 22, 0.2) 50%, 
-    rgba(239, 68, 68, 0.2) 75%, 
-    rgba(220, 38, 127, 0.2) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(251, 191, 36, 0.2) 0%,
+    rgba(245, 158, 11, 0.2) 25%,
+    rgba(249, 115, 22, 0.2) 50%,
+    rgba(239, 68, 68, 0.2) 75%,
+    rgba(220, 38, 127, 0.2) 100%
+  );
 }
 
 /* Accessible text utilities */
@@ -120,4 +122,27 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(251, 191, 36, 0.7);
+}
+
+/* Custom higher bounce animation */
+@keyframes bounce-high {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+.animate-bounce-high {
+  animation: bounce-high 1s infinite;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
 }

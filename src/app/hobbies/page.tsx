@@ -15,7 +15,7 @@ export default function Hobbies() {
           <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Hobbies & Interests
           </h1>
-          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-amber-900 max-w-3xl mx-auto">
             When I am not coding, you will find me immersed in gaming worlds, 
             painting miniatures, or building the latest Gundam model.
           </p>
@@ -38,7 +38,7 @@ export default function Hobbies() {
                   />
                   <div>
                     <h3 className="text-xl font-bold text-accessible-light">{platform.gamingSource}</h3>
-                    <p className="text-accessible-secondary">Gamertag: {platform.gamingTAG}</p>
+                    <p className="text-amber-900">Gamertag: {platform.gamingTAG}</p>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -70,7 +70,7 @@ export default function Hobbies() {
                   <span className="text-accessible-light font-medium capitalize">
                     {component.replace(/([A-Z])/g, ' $1').trim()}:
                   </span>
-                  <span className="text-accessible-secondary text-sm text-right">{specification}</span>
+                  <span className="text-amber-900 text-sm text-right">{specification}</span>
                 </div>
               ))}
             </div>
@@ -100,7 +100,7 @@ export default function Hobbies() {
                     )}
                   </div>
                 </div>
-                <p className="text-accessible-secondary text-sm mb-4 leading-relaxed">
+                <p className="text-amber-900 text-sm mb-4 leading-relaxed">
                   {miniature.miniDescription}
                 </p>
                 <div>
@@ -135,7 +135,7 @@ export default function Hobbies() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-accessible-light mb-3">Problem Solving</h3>
-              <p className="text-accessible-secondary text-sm">
+              <p className="text-amber-900 text-sm">
                 Gaming and building complex miniature armies develops strategic thinking and problem-solving skills that translate directly to software development.
               </p>
             </div>
@@ -146,7 +146,7 @@ export default function Hobbies() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-accessible-light mb-3">Attention to Detail</h3>
-              <p className="text-accessible-secondary text-sm">
+              <p className="text-amber-900 text-sm">
                 Miniature painting requires incredible precision and attention to detail - skills essential for writing clean, maintainable code.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function Hobbies() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-accessible-light mb-3">Community</h3>
-              <p className="text-accessible-secondary text-sm">
+              <p className="text-amber-900 text-sm">
                 Gaming and hobby communities foster collaboration and knowledge sharing, much like the developer community I thrive in.
               </p>
             </div>

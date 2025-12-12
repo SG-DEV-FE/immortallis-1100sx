@@ -75,7 +75,7 @@ export default function Contact() {
           <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Get In Touch
           </h1>
-          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-amber-900 max-w-3xl mx-auto">
             I am always interested in new opportunities, collaborations, and interesting projects. 
             Let&apos;s discuss how we can work together to bring your ideas to life.
           </p>
@@ -186,12 +186,12 @@ export default function Contact() {
                           href={info.link}
                           target={info.link.startsWith('http') ? '_blank' : undefined}
                           rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                          className="text-accessible-secondary hover:text-accessible-accent transition-colors"
+                          className="text-amber-900 hover:text-accessible-accent transition-colors"
                         >
                           {info.value}
                         </a>
                       ) : (
-                        <p className="text-accessible-secondary">{info.value}</p>
+                        <p className="text-amber-900">{info.value}</p>
                       )}
                     </div>
                   </div>
@@ -205,15 +205,15 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="text-accessible-secondary">Available for new projects</span>
+                  <span className="text-amber-900">Available for new projects</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-amber-500 rounded-full"></div>
-                  <span className="text-accessible-secondary">Open to freelance opportunities</span>
+                  <span className="text-amber-900">Open to freelance opportunities</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                  <span className="text-accessible-secondary">Interested in permanent roles</span>
+                  <span className="text-amber-900">Interested in permanent roles</span>
                 </div>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function Contact() {
                 </svg>
                 <h3 className="text-accessible-light font-semibold">Quick Response</h3>
               </div>
-              <p className="text-accessible-secondary text-sm">
+              <p className="text-amber-900 text-sm">
                 I typically respond to messages within 24 hours during business days.
               </p>
             </div>

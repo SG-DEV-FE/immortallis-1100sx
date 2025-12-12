@@ -37,7 +37,7 @@ export default function Skills() {
           style={{ width: `${skill.level}%` }}
         ></div>
       </div>
-      <p className="text-accessible-secondary text-sm">{skill.description}</p>
+      <p className="text-amber-900 text-sm">{skill.description}</p>
     </div>
   );
 
@@ -49,7 +49,7 @@ export default function Skills() {
           <h1 className="text-5xl font-bold text-accessible-light mb-4">
             Technical Skills
           </h1>
-          <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">
+          <p className="text-xl text-amber-900 max-w-3xl mx-auto">
             A comprehensive overview of my technical expertise across frontend, backend, 
             and design tools developed through years of professional experience.
           </p>
@@ -109,7 +109,7 @@ export default function Skills() {
                 <h3 className="text-xl font-semibold text-accessible-light">
                   Microsoft Technology Associate
                 </h3>
-                <p className="text-accessible-secondary">Software Development Fundamentals</p>
+                <p className="text-amber-900">Software Development Fundamentals</p>
                 <p className="text-accessible-muted text-sm">Firebrand Training - 2018</p>
               </div>
             </div>

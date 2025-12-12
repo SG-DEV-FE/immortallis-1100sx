@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Software Engineer Portfolio",
-  description: "Modern software engineer portfolio showcasing skills, projects, and experience",
+  description:
+    "Modern software engineer portfolio showcasing skills, projects, and experience",
 };
 
 export default function RootLayout({
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-amber-50 via-orange-50 to-red-50 min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white min-h-screen`}
       >
         <Navigation />
         <main>{children}</main>
