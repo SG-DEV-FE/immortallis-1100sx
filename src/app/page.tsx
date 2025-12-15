@@ -3,7 +3,14 @@
 import { CldImage } from "next-cloudinary";
 import Image from "next/image";
 import Link from "next/link";
-import { Lightbulb, Zap, Users } from "lucide-react";
+import {
+  Lightbulb,
+  Zap,
+  Users,
+  Code,
+  MonitorCloud,
+  Network,
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -144,10 +151,9 @@ export default function Home() {
             Core Values
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center">
-              <div className="relative w-16 h-16 mx-auto mb-4">
-                <div className="absolute inset-0 rounded-full flex items-center justify-center shadow-lg/50 shadow-yellow-400 animate-[spin_2s_linear_infinite]" />
-                <div className="absolute inset-0 bg-stone-900 rounded-full flex items-center justify-center shadow-lg z-10">
+            <div className="w-full h-full p-6 text-center">
+              <div className=" w-16 h-16 mx-auto mb-4">
+                <div className=" w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                   <Lightbulb className="w-8 h-8 text-white" />
                 </div>
               </div>
@@ -160,8 +166,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-lg">
+            <div className="w-full h-full p-6 text-center">
+              <div className="w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                 <Zap className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-amber-900 mb-3">
@@ -173,8 +179,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-lg">
+            <div className="w-full h-full p-6 text-center">
+              <div className="w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-amber-900 mb-3">
@@ -195,20 +201,20 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-bold text-amber-600 mb-2">5+</div>
-              <p className="text-amber-700">Years Experience</p>
+              <div className="text-3xl font-bold text-amber-600 mb-2">35+</div>
+              <p className="text-amber-700">Years collecting miniatures</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-amber-600 mb-2">50+</div>
-              <p className="text-amber-700">Projects Completed</p>
+              <div className="text-3xl font-bold text-amber-600 mb-2">10</div>
+              <p className="text-amber-700">Platinum Tophies PS</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-amber-600 mb-2">15+</div>
-              <p className="text-amber-700">Technologies Mastered</p>
+              <p className="text-amber-700">Tea's consumed daily</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-amber-600 mb-2">∞</div>
-              <p className="text-amber-700">Coffee Consumed</p>
+              <p className="text-amber-700">Sci-Fi / Fantasy knowledge</p>
             </div>
           </div>
         </div>
@@ -229,21 +235,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Frontend Development */}
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-amber-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                  />
-                </svg>
+            <div className="w-full h-full p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+              <div className=" w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
+                <Code className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accessible-primary mb-2">
                 Frontend Development
@@ -255,46 +249,22 @@ export default function Home() {
             </div>
 
             {/* Backend Development */}
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-amber-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"
-                  />
-                </svg>
+            <div className="w-full h-full p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+              <div className=" w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
+                <MonitorCloud className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accessible-primary mb-2">
-                Backend Development
+                UI / UX Design
               </h3>
               <p className="text-amber-900">
-                Building robust, scalable server-side applications and APIs
+                Designing user-friendly interfaces and engaging user experiences
               </p>
             </div>
 
             {/* Full Stack Solutions */}
-            <div className="w-full h-full rounded-sm shadow-lg p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-amber-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                  />
-                </svg>
+            <div className="w-full h-full p-6 text-center hover:transform hover:scale-105 transition-all duration-300">
+              <div className=" w-16 h-16 mx-auto mb-4 bg-stone-900 rounded-full flex items-center justify-center shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
+                <Network className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-accessible-primary mb-2">
                 Full Stack Solutions
