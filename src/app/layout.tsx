@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white min-h-screen`}
       >
         <Navigation />
-        <main>{children}</main>
+        <main className="overflow-hidden">{children}</main>
       </body>
     </html>
   );
