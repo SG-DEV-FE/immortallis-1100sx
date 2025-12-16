@@ -1,6 +1,20 @@
 {
   "Employment": [
     {
+      "employerName": "Evoke Creative Ltd",
+      "companyLogo": "company-logo/evoke-creative-ltd",
+      "companyURL": "https://www.evokecreative.co.uk/",
+      "roles": [
+        {
+          "title": "Senior Software Developer",
+          "description": "Developing white-label software solutions for kiosks and digital signage using Vue 3, Tailwind CSS, and component-based architecture. Creating bespoke user interfaces in Figma translating designs into responsive, accessible applications. Building reusable component libraries for multi-tenant deployments across diverse client installations. Providing technical support for digital signage systems and ensuring cross-platform compatibility for touchscreen kiosk environments. Collaborating on design systems and maintaining consistent branding across white-label implementations.",
+          "startDate": "2025-05-26",
+          "endDate": null,
+          "location": "Hybrid Working"
+        }
+      ]
+    },
+    {
       "employerName": "SailGP",
       "companyLogo": "company-logo/sailGP",
       "companyURL": "https://www.sailgp.com/",
