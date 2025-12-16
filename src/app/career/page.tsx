@@ -350,7 +350,7 @@ export default function Career() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-6 text-center">
-              <div className="w-16 h-16 bg-linear-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mx-auto mb-4 shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                 <span className="text-2xl font-bold text-white">
                   {yearsExperience}+
                 </span>
@@ -363,7 +363,7 @@ export default function Career() {
               </p>
             </div>
             <div className="p-6 text-center">
-              <div className="w-16 h-16 bg-linear-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mx-auto mb-4 shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                 <span className="text-2xl font-bold text-white">
                   {technologiesUsed}+
                 </span>
@@ -376,7 +376,7 @@ export default function Career() {
               </p>
             </div>
             <div className="p-6 text-center">
-              <div className="w-16 h-16 bg-linear-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-stone-900 rounded-full flex items-center justify-center mx-auto mb-4 shadow-[3px_3px_4px_1px_rgba(0,0,0,0.55)]">
                 <span className="text-2xl font-bold text-white">
                   {gamesWorkedOn}+
                 </span>
