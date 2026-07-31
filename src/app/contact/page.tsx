@@ -72,7 +72,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-accessible-light mb-4">
+          <h1 className="text-5xl font-bold text-accessible-primary mb-4">
             Get In Touch
           </h1>
           <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">

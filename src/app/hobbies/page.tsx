@@ -12,7 +12,7 @@ export default function Hobbies() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-accessible-light mb-4">
+          <h1 className="text-5xl font-bold text-accessible-primary mb-4">
             Hobbies & Interests
           </h1>
           <p className="text-xl text-accessible-secondary max-w-3xl mx-auto">

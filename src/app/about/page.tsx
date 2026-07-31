@@ -6,14 +6,14 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-accessible-primary mb-6">
             About Me
           </h1>
-          <p className="text-xl text-amber-700 max-w-3xl mx-auto">
+          <p className="text-xl text-accessible-secondary  max-w-3xl mx-auto">
             Passionate software engineer with a drive for creating innovative solutions and meaningful digital experiences
           </p>
         </div>
-
+ 
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           {/* Profile Section */}

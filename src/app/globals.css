@@ -87,6 +87,23 @@ body {
   color: var(--text-muted);
 }
 
+/* Dark background specific colors - these should be used on dark backgrounds */
+.text-dark-primary {
+  color: #ffffff; /* Pure white for primary headings on dark */
+}
+
+.text-dark-secondary {
+  color: #ffffff; /* Pure white for secondary text on dark - changed from gray for better contrast */
+}
+
+.text-dark-accent {
+  color: #fbbf24; /* Bright yellow-amber for accents on dark */
+}
+
+.text-dark-muted {
+  color: #d1d5db; /* Medium gray for less important text on dark */
+}
+
 /* Additional utility classes for better accessibility */
 .bg-accessible-card {
   background: rgba(255, 255, 255, 0.75);
