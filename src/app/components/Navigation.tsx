@@ -1,17 +1,16 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { CldImage } from "next-cloudinary";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 const navItems = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/career', label: 'Career' },
-  { href: '/skills', label: 'Skills' },
-  { href: '/gallery', label: 'Gallery' },
-  { href: '/hobbies', label: 'Hobbies' },
-  { href: '/contact', label: 'Contact' },
+  { href: "/", label: "Home" },
+  { href: "/career", label: "Career" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/hobbies", label: "Hobbies" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navigation() {
@@ -23,8 +22,21 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-amber-900">
-              Portfolio
+            <Link
+              href="/"
+              className="text-2xl font-bold text-amber-900 flex items-center gap-3"
+            >
+              <div className="relative w-10 h-10 shrink-0">
+                <CldImage
+                  src="SteveG_gpdiyn"
+                  alt="Profile Picture"
+                  fill
+                  quality={100}
+                  format="auto"
+                  className="object-cover rounded-full"
+                />
+              </div>
+              <span>Stephen Gault</span>
             </Link>
           </div>
 
@@ -36,8 +48,8 @@ export default function Navigation() {
                 href={item.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                   pathname === item.href
-                    ? 'bg-amber-100/50 text-amber-900 shadow-md'
-                    : 'text-amber-800 hover:bg-white/30 hover:text-amber-900'
+                    ? "bg-amber-100/50 text-amber-900 shadow-md"
+                    : "text-amber-800 hover:bg-white/30 hover:text-amber-900"
                 }`}
               >
                 {item.label}
@@ -97,8 +109,8 @@ export default function Navigation() {
                   href={item.href}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-all duration-200 ${
                     pathname === item.href
-                      ? 'bg-amber-100/50 text-amber-900 shadow-md'
-                      : 'text-amber-800 hover:bg-white/30 hover:text-amber-900'
+                      ? "bg-amber-100/50 text-amber-900 shadow-md"
+                      : "text-amber-800 hover:bg-white/30 hover:text-amber-900"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
